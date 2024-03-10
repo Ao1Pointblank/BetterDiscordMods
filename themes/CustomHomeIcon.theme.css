@@ -1,0 +1,45 @@
+/**
+ * @name Custom Home Icon
+ * @version 1.0.0
+ * @description Snippet stolen from Nier theme
+ * @website https://github.com/AccraZed/YoRHA-UI-BetterDiscord
+ * @author Accrazed#2710
+ * @authorId 153562159161278473
+ */
+
+/*  ANIMATION   */
+.tutorialContainer__890ea .svg_ad7356 {
+  animation-name: y-spin;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes y-spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+/*  IMAGE */
+#app-mount .guilds__2b93a .tutorialContainer__890ea .listItem_fa7b36:first-child .wrapper_d281dd:before {
+    content: "";
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    background: url(file:///home/pointblank/.config/BetterDiscord/themes/home.png);
+/*    background: url(https://cdn.discordapp.com/avatars/252501967786475521/f15e0cb2ef488a08e9e152d2fbb0c765.png?size=4096);*/
+    background-repeat: no-repeat;
+    background-size: 88%;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    transition: 0.2s ease;
+  }
+  .childWrapper__01b9c {
+      display: none;
+  }
