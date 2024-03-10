@@ -1,10 +1,10 @@
 /**
  * @name Custom Home Icon
  * @version 1.0.0
- * @description Snippet stolen from Nier theme
- * @website https://github.com/AccraZed/YoRHA-UI-BetterDiscord
- * @author Accrazed#2710
- * @authorId 153562159161278473
+ * @description Snippet stolen from Nier theme, but modified and fixed over the years
+ * @website https://github.com/Ao1Pointblank/BetterDiscordMods
+ * @author ao1pointblank
+ * @authorId 252501967786475521
  */
 
 /*  ANIMATION   */
@@ -31,8 +31,7 @@
     height: 64px;
     width: 64px;
     position: absolute;
-    background: url(file:///home/pointblank/.config/BetterDiscord/themes/home.png);
-/*    background: url(https://cdn.discordapp.com/avatars/252501967786475521/f15e0cb2ef488a08e9e152d2fbb0c765.png?size=4096);*/
+    background: url(https://github.com/Ao1Pointblank/BetterDiscordMods/blob/main/themes/home.png?raw=true);
     background-repeat: no-repeat;
     background-size: 88%;
     background-position: center;
