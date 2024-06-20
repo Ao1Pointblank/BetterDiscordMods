@@ -1,14 +1,14 @@
 /**
  * @name Custom Home Icon
- * @version 2.0.0
- * @description Snippet stolen from Nier theme, but modified and fixed over the years
+ * @version 3.0.0
+ * @description Snippet originally stolen from Nier theme, but modified and fixed over the years
  * @website https://github.com/Ao1Pointblank/BetterDiscordMods
  * @author ao1pointblank
  * @authorId 252501967786475521
  */
 
 /*  ANIMATION   */
-.tutorialContainer_b06ae6 .svg__34dd4 {
+.tutorialContainer_f9623d .svg_c5f96a {
   animation-name: y-spin;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
@@ -25,8 +25,8 @@
 }
 
 /*NEW IMAGE METHOD*/
-.wrapper__8436d:hover .childWrapper__760c6, .childWrapper__760c6 {background-color: transparent;} /*replace with colour if you want a colour behind your image */
-#app-mount .tutorialContainer_b06ae6 .childWrapper__760c6 {
+.wrapper_c5f96a:hover .childWrapper_f90abb, .childWrapper_f90abb {background-color: transparent;}
+#app-mount .tutorialContainer_f9623d .childWrapper_f90abb {
     background-image: url('https://raw.githubusercontent.com/Ao1Pointblank/BetterDiscordMods/main/themes/CustomHomeIcon/home.png');
 /*    height: 150%;
     width: 150%;*/
@@ -34,4 +34,8 @@
     background-size: cover;
     background-position: center;
 }
-.childWrapper__760c6 svg {display: none;}
+.childWrapper_f90abb svg {display: none;}
+
+.wrapper_f90abb:hover .childWrapper_f90abb, .wrapper_f90abb.selected_f90abb .childWrapper_f90abb {
+    background-color: transparent;
+}
