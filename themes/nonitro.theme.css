@@ -1,0 +1,166 @@
+/**
+ * @name NoNitro3
+ * @description WIP theme to take out the trash
+ * @author a lot of people, compiled messily by pointblank
+ * @version 0.0.0
+ * @authorId
+ * @invite
+ * @donate
+ * @patreon
+ * @website
+ * @source
+ * @updateUrl
+ */
+
+/*REMOVE NITRO STUFF IN SETTINGS*/
+[aria-label="Clips"] + div + .separator_a0 ,
+[aria-label="Clips"] + div + .separator_a0 + .header_a0,
+[aria-label="Nitro"],
+[aria-label="Nitro"] + div,
+[aria-label="Nitro"] + div + div,
+[aria-label="Nitro"] + div + div + div,
+[aria-label="Nitro"] + div + div + div + div {
+    display: none;
+}
+
+/*REMOVE MERCH AND HYPESQUAD IN SETTINGS*/
+[aria-label="Merch"],
+[aria-label="Merch"] + div {
+	display: none;
+}
+
+/*THIS MAY NOT WORK NEXT YEAR*/
+[href*="/snowsgiving"]{display: none}
+
+/*HIDE NITRO SHOP BUTTONS IN PROFILES SETTINGS MENU*/
+.artContainer_da1432,
+.mainColumn_da1432,
+.container_da1432,
+.buttonsContainer_b5c67e,
+.buttonsContainer_dbbd43,
+.customizationSection_b3a5c2:nth-child(4) .title_b3a5c2,
+.customizationSection_b3a5c2:nth-child(5) .title_b3a5c2, /*one of these 2 lines accidentally hides a title in the Server Profiles tab. oh well.*/
+.bannerNitroUpsell_ab876d {
+	display: none;
+}
+
+/*SERVER NITRO BANNERS AND BOOSTING STUFF*/
+.flowerStarContainer_ff7d90,
+.container_c75f85, /* remove boost bar from server banners (make sure this doesnt hide the banner picture) */
+.tier0Container_dc391a, /* Promo under Server Boosting */
+.premiumFeatureBorder_c6d722, /* Nitro user profile demo (i don't know what this is) */
+.premiumIconWrapper_c3e427.clickable_c3e427, /* Nitro button that appears when hovering over banner */
+ {
+    display: none;
+ }
+
+
+/*WHOOPS, NO MORE SUPER EMOJI*/
+/*hide super reaction button when hovering on message*/
+.reactionBtn_f61c73 .buttons_d5deea .button_ef319f:has(svg>:nth-last-child(2)[d$='16.3671 14.9268Z']){
+    display: none;
+}
+.hideEmoji_f61c73 {
+  opacity: 1;
+}
+.effect_e5651 svg {
+  transform: none !important;
+}
+.effect_e5651 g {
+  clip-path: none !important;
+  transform: none;
+  opacity: 0;
+}
+[id$=reaction-1],
+[aria-label='add super reaction' i]{display:none}
+
+/*OOPSIE, NO MORE PROFILE PICTURE DECORATION OVERLAYS*/
+.avatarDecoration_ec86aa,
+.avatarDecorationHint_f89da9,
+.avatarDecoration_c51b4e {
+	display: none;
+}
+
+/*REMOVE GREYSCALE ON NITRO-ONLY EMOJIS (make sure you install freemoji plugin)*/
+.emojiItem_fbfedd, .emojiItemMedium_fbfedd, .emojiItemSelected_fbfedd, .emojiItemDisabled__843ea {
+    filter: grayscale(0);
+}
+
+
+
+
+
+
+/*BELOW THIS LINE IS NOT PROOF-READ YET. PROBABLY MOSTLY OUTDATED*/
+/******************************************************************************************/
+/*NO-NITRO*/
+.buttons_d0696b .container_dfb455:has([d^="M4 6a4 4 0 0 1 4-4h.09c1.8"]) {display: none}
+
+/* Hide GIFT button */
+.buttons_d0696b>.button_dd4f85:not(.BD-TeX-plugin-button)>:not(.quickToggleButton-P2xDh8),
+/* hide shiny buttons */
+.shinyButton_d5e126,
+/* hide premium promos */
+.premiumPromo_ca9b56,
+.premiumIcon_a31c43,
+.userPopoutInner-1hXSeY>.wrapper-400BN2,
+.premiumIconWrapper-yyGDql,
+.upsell_b82429,
+/* hide nitro settings in settings panel */
+.side-2ur1Qk[aria-label$=settings i]>:nth-child(-n+15):not(:nth-child(-n+8)),
+/* hide nitro stuff in settings */
+.featureBorder_c6d722,
+.customizationSection_b3a5c2.showBorder_b3a5c2,
+.upsellOverlayContainer_eb49af,
+.bannerNitroUpsell-23OMvY,
+/* removing nitro stuff in server settings */
+#guild_premium-tab>div:not([class])~div,
+#overview-tab .children_a6ae9b>:last-child>.divider_f0a9ff>.children_a6ae9b>:nth-last-child(-n+2),
+.paymentModalContent>* {display: none;}
+#profile-customization-tab [class$=customizationSection_b3a5c2]{
+    border: 0;
+}
+.paymentModalContent:before{
+    content: 'this is pretty much a scam, continue if you please.';
+    text-transform: capitalize;
+    color: var(--text-normal);
+    font-size: 16px;
+    line-height: 20px;
+    margin: 20px;
+}
+.paymentModalContent{
+    background-color: var(--modal-footer-background);
+}
+/* user profiles */
+.theme-dark {
+    --profile-gradient-primary-color: var(--background-secondary-alt) !important;
+    --profile-gradient-secondary-color: var(--background-secondary-alt) !important;
+    --profile-gradient-overlay-color: transparent !important;
+    --profile-gradient-button-color: var(--button-secondary-background) !important;
+    --profile-avatar-border-color: var(--background-secondary-alt) !important;
+    --profile-message-input-border-color: var(--background-modifier-accent) !important;
+    --profile-body-background-color: var(--background-floating) !important;
+    --profile-body-background-hover: var(--background-modifier-hover) !important;
+    --profile-body-divider-color: var(--background-modifier-accent) !important;
+    --profile-role-pill-background-color: var(--background-secondary-alt) !important;
+    --profile-role-pill-border-color: var(--interactive-normal) !important;
+    --account-profile-popout-menu-hover: var(--brand-experiment-560) !important;
+}
+.userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ, .userProfileOuterThemed-3EfHmv.userProfileOuter-1K_BYU{
+    padding: 0;
+}
+.userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ .avatarWrapper-3y0KZ1, .userProfileOuterThemed-3EfHmv.userProfileOuter-1K_BYU .avatarWrapper-3y0KZ1{
+    margin: -4px
+}
+/* hiding server boost button */
+#guild-header-popout-premium-subscribe{
+    opacity:0;
+    z-index:-1;
+    margin-top:-42.7px;
+}
+
+/* hide nitro and shop tabs in DMs */
+.channel_c91bad .linkButton_c91bad > .link_c91bad[href="/shop"],
+.channel_c91bad .linkButton_c91bad > .link_c91bad[href="/store"] {
+  display: none;
+}
