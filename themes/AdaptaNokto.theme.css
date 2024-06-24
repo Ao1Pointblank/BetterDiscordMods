@@ -2,7 +2,7 @@
  * @name Adapta Nokto
  * @author Ao1|Pointblank#2256
  * @description A dark grey-blue theme with aqua highlights
- * @version 1.0.0
+ * @version 2.0.0
  */
 
 .theme-dark {
@@ -54,28 +54,28 @@
 	--__spoiler-background-color--revealed: black*/
 }
 
-.peopleColumn__51df3 {background-color: #29353B;}
-.mentioned__58017:before {--info-warning-foreground: #00BCD4;}
-.scroller_cc9b9a {background-color: #222D32;}
-.popout__08442 {background-color:#243035;}
-#app-mount .autocomplete_df266d {background-color:#263238;}  /*slash command menu bg*/
-.categoryHeader_f97a5f {background-color:#243035;}          /*slash command menu header*/
-.theme-dark .option_b5597b:after {display: none;}
-.list__5ced9>div:first-child {background: var(--background-secondary-alt);}  /*forums page background*/
-.buttonColor__01bf8 {background: var(--background-secondary-alt);} /*"listen on YT" button from lastfm plugin*/
+.peopleColumn_c2739c {background-color: #29353B;}
+.mentioned_d5deea:before {--info-warning-foreground: #00BCD4;}
+.scroller_bea0d0 {background-color: #222D32;}
+.popout_e6af9c {background-color:#243035;}
+#app-mount .autocomplete_f23da8 {background-color:#263238;}  /*slash command menu bg*/
+.categoryHeader_fe2299 {background-color:#243035;}          /*slash command menu header*/
+.theme-dark .option_b0286e:after {display: none;}
+.list_a6d69a>div:first-child {background: var(--background-secondary-alt);}  /*forums page background*/
+.buttonColor_e36233 {background: var(--background-secondary-alt);} /*"listen on YT" button from lastfm plugin*/
 
 /*channel picker/browser background*/
-.pageBody_db54f5, .scroller__81266 {background: var(--background-secondary-alt)}
-.container__11d72.themed_b152d4, .theme-dark .children__32014:after {background: var(--background-secondary-alt)}
-.theme-dark .container__10dc7, .theme-dark .header__60bef {background: var(--background-secondary)}
-#app-mount .container-3wLKDe, #app-mount .background_e80d5a, #app-mount .forumOrHome__75784 {
+.pageBody_c2efea, .scroller_c6b11b {background: var(--background-secondary-alt)}
+.container_e44302.themed_e44302, .theme-dark .children_e44302:after {background: var(--background-secondary-alt)}
+.theme-dark .container_f1fd9c, .theme-dark .header_f1fd9c {background: var(--background-secondary)}
+#app-mount .container-3wLKDe, #app-mount .background_c54132, #app-mount .forumOrHome_ff5f90 {
     background: red;
 }
 
-.input__848cd {background: var(--background-tertiary)}
+.input_f4e139 {background: var(--background-tertiary)}
 
 /*SERVER TITLE ABOVE CHANNELS*/
-.header__104ca {background: #222D32}
+.header_fd6364 {background: #222D32}
 
 /*ALL SCROLLBARS (I THINK)*/
 ::-webkit-scrollbar {
@@ -88,25 +88,25 @@
 }
 
 /*CODEBLOCK BACKGROUND COLOR*/
-.markup_a7e664 code {background: #13191C}
+.markup_d6076c code {background: #13191C}
 
 /*RE-THEME FORUM CHANNELS*/
 #app-mount .container-3wLKDe,
-#app-mount .background_e80d5a,
-#app-mount .forumOrHome__75784 {
+#app-mount .background_c54132,
+#app-mount .forumOrHome_ff5f90 {
 	background: var(--background-primary-secondary)
 }
-.mainCard__8a660 {background: var(--background-secondary)}
+.mainCard_a6d69a {background: var(--background-secondary)}
 
 /*SEND MESSAGE BUTTON*/
-.button__8d734[disabled]>.innerButton_debeee>.buttonChild__7b90d, .buttonChild__7b90d {
+.button_a06035[disabled]>.innerButton_a06035>.buttonChild_a06035, .buttonChild_a06035 {
     color: var(----interactive-normal);
 }
 
-.activeButtonChild__6e162 {
+.activeButtonChild_a06035 {
     color: var(--interactive-hover);
 }
 
-.theme-dark .button__8d734:focus-within .activeButtonChild__6e162, .theme-dark .button__8d734:focus .activeButtonChild__6e162, .theme-dark .button__8d734:hover .activeButtonChild__6e162 {
+.theme-dark .button_a06035:focus-within .activeButtonChild_a06035, .theme-dark .button_a06035:focus .activeButtonChild_a06035, .theme-dark .button_a06035:hover .activeButtonChild_a06035 {
     color: #00BCD4;
 }
